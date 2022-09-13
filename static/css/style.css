@@ -1,0 +1,193 @@
+html{
+    margin: 0;
+    font-size: 1.5rem;
+    background: white;
+	  font-family: 'Thasadith', sans-serif;
+    scroll-behavior: smooth;
+}
+.main-heading{
+  text-align: center;
+  margin: 0;
+  color: black
+}
+.form-style{
+  width: 350px;
+  height: 50rem;
+  margin: 0 auto;
+  color: black;
+  border-radius: 25px;
+  padding: 10px 10px;
+}
+body {
+  	font-family: 'Thasadith', sans-serif;
+    margin: 0;
+    background-color: #FFD36E ;
+}
+
+body a {
+    text-decoration: none;
+    -webkit-transition: 0.5s all;
+	  font-family: 'Thasadith', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+	  color: #323648;
+    font-family: 'Thasadith', sans-serif;
+}
+p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 2em;
+    letter-spacing: 2px;
+    color: gray;
+    font-weight: 600;
+}
+
+
+/* Styling the links */
+.navbar{
+  padding: 0.5 0.5 !important;
+  font-size: 0.8rem;
+}
+nav a {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+/* Background color change on Hover */
+nav a:hover {
+	color: #ddd;
+}
+.form-control{
+  font-size: 0.8rem;
+}
+
+h3.heading {
+    font-size: 70px;
+    font-weight: 500;
+    padding-left: 400px;
+    padding-bottom: 2rem;
+}
+
+.about-info{
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+/* banner style */
+.banner_w3lspvt {
+    position: relative;
+    z-index: 1;
+}
+
+.banner-top {
+    background: url(../images/3.jpg) no-repeat center;
+    background-size: cover;
+  }
+
+.w3layouts-banner-info {
+    padding-top: 50px;
+}
+
+.w3layouts-banner-info h3 {
+    font-size: 4em;
+    text-shadow: 3px 4px 6px rgba(45, 45, 45, 0.15);
+    font-weight: 600;
+    color: white;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.w3layouts-banner-info p {
+    max-width: 650px;
+    color: white;
+    padding-bottom: 50px;
+}
+.w3layouts-banner-info h4 {
+    color: #eee;
+	text-transform: capitalize;
+  font-size: 22px;
+  letter-spacing: 3px;
+  line-height: 25px;
+}
+
+.overlay {
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.core-right h3 {
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.core-value{
+  background-color:#FAF5E4;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+/*services*/
+.blog{
+  padding-top: 3rem;
+  padding-bottom: 10rem !important;
+}
+.blog-left,.blog-middle,.blog-right{
+	position: relative;
+}
+.blog-info {
+    background: white;
+    padding: 30px;
+    margin-top: -2em;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 250px;
+	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.08), 0 5px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 14px 0 rgba(0, 0, 0, 0.06);
+}
+.blog-info p {
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.blog-info h4 {
+    font-size: 22px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/*services*/
+/*footer*/
+footer{
+    background: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.footer-a{
+  color: grey;
+  font-weight: 400;
+}
+/*footer*/
+/*-- copyright --*/
+.w3l-copy p {
+    letter-spacing: 1px;
+}
+/*-- //copyright --*/
+/*-- move top --*/
+a.move-top {
+    width: 34px;
+    height: 34px;
+    background: url(../images/move-top.png) no-repeat;
+    display: inline-block;
+    position: fixed;
+    bottom: 4%;
+    right: 2%;
+    z-index: 0;
+}
+/*-- //move top --*/
